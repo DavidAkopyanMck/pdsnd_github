@@ -11,4 +11,5 @@ Update documentation and refactor code on GitHub
 bikeshare_2.py
 
 ### Credits
-https://medium.com/better-programming/git-workflow-etiquette-f22d96b8b0b8
+https://medium.com/better-programming/git-workflow-etiquette-f22d96b8b0b8 \
+https://github.com/git-tips/tips
