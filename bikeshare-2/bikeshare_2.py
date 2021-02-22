@@ -46,7 +46,16 @@ def load_data(city, month, day):
 
 
 def time_stats(df):
-    """Displays statistics on the most frequent times of travel."""
+    """
+    Displays statistics on the most frequent times of travel.
+
+    Args:
+        (Pandas.DataFrame) df - Pandas DataFrame containing city data
+    Returns:
+         (str) month - name of most common month
+         (str) day - name of most common day of week
+         (str) hour - name of most common start hour
+    """
 
     print('\nCalculating The Most Frequent Times of Travel...\n')
     start_time = time.time()
