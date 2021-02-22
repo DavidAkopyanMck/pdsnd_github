@@ -1,15 +1,14 @@
 ### Date created
-Include the date you created this project and README file.
+Feb 21, 2021
 
 ### Project Title
-Replace the Project Title
+Bikeshare on GitHub
 
 ### Description
-Describe what your project is about and what it does
+Update documentation and refactor code on GitHub
 
 ### Files used
-Include the files used
+bikeshare_2.py
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+https://medium.com/better-programming/git-workflow-etiquette-f22d96b8b0b8
