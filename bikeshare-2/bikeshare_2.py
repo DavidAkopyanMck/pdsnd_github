@@ -101,7 +101,14 @@ def station_stats(df):
 
 
 def trip_duration_stats(df):
-    """Displays statistics on the total and average trip duration."""
+    """
+    Displays statistics on the total and average trip duration.
+    Args:
+        (Pandas.DataFrame) df - Pandas DataFrame containing city data filtered by month and day
+    Returns:
+         (float) total_travel_time - sum of travel time
+         (float) mean_travel_time - mean of travel time
+    """
 
     print('\nCalculating Trip Duration...\n')
     start_time = time.time()
@@ -117,7 +124,16 @@ def trip_duration_stats(df):
 
 
 def user_stats(df):
-    """Displays statistics on bikeshare users."""
+    """
+    Displays statistics on bikeshare users.
+    Args:
+        (Pandas.DataFrame) df - Pandas DataFrame containing city data filtered by month and day
+    Returns:
+         (int) count_genders - count of genders
+         (str) earliest_birth_year - min of birth year
+         (str) last_birth_year - last birth year
+         (str) mode_birth_year - mode of birth year
+    """
 
     print('\nCalculating User Stats...\n')
     start_time = time.time()
